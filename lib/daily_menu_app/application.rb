@@ -2,6 +2,7 @@ require 'sinatra'
 require 'rack-cache'
 require 'json'
 require 'logger'
+require 'dalli'
 
 module DailyMenuApp
   class Application < Sinatra::Application
