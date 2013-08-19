@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'daily_menu_app/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'DailyMenuApp'
+  spec.name          = 'daily_menu_app'
   spec.version       = DailyMenuApp::VERSION
   spec.authors       = ['Karaszi István']
   spec.email         = ['github@spam.raszi.hu']
